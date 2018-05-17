@@ -1,10 +1,4 @@
-@media all and (max-width: 992px) {
-    #contact .contact-inner form input[type="submit"] {
-        padding: 0;
-    }
-
-
-    @media all and (max-width: 768px) {
+ @media all and (max-width: 768px) {
         
         #portfolio .portfolio-inner {
             width: 80%;
@@ -26,61 +20,15 @@
         #main-header .header-inner h2 {
             font-size: 30px;
         }
+        #figures {
+            display: inline-block;
+        }
         .social-icons {
             margin-top: 10px;
             padding: 10px;
         }
-    }
-/*
-        #about figure{
-            
-        }
-        #about article p{
-            text-align: center;
+       input[type="submit"]{
+            font-size: 10px;
+           padding: 0;
         }
     }
-*/
-    /*
-    #main-nav ul {
-        display: none;
-    }
-    
-    #main-nav #drop:checked + ul {
-        display: block;
-    }
-    
-    #main-nav ul .list-item {
-        display: block;
-    }
-    
-    #about figure,
-    #about article {
-        width: 100%;
-    }
-    
-    #about figure img {
-        width: 100%;
-    }
-    
-    #portfolio .portfolio-inner {
-        width: 100%;
-    }
-    
-    #contact .contact-inner {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .social-icons {
-        margin-bottom: 20px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    
-}
-
-@media all and (max-width: 480px) {
-    
-}
-*/
